@@ -1,21 +1,8 @@
 # Make-script-for-Magma-Code-Distance-estimation
-Matlab application to generate script for Magma Code Distance estimation (Brouwer-Zimmerman)
-make unstructured matrix. For QC-LDPC codes better use QC representation for speed-up Magma computation
-for detail about Magma implementation read:
+The GitHub repository contains a MATLAB application for generating a script for Magma Code Distance estimation using the Brouwer-Zimmerman method. The tool generates an unstructured matrix and is optimized for Quasi-Cyclic Low-Density Parity-Check (QC-LDPC) codes, as it is recommended to use their QC representation for faster Magma computation.
 
- Grassl M. Searching for linear codes with large minimum distance. In: Bosma W., Cannon J. (eds) Discovering Mathematics with Magma. Algorithms and Computation in Mathematics, vol 19. Springer, Berlin, Heidelberg, 2006, pp 287-313
- 
- 
- 
- For detail about Brouwer-Zimmerman method read:
- 
- 
- 
-Andries E. Brouwer, Bounds on linear codes, in: Vera S. Pless and W. Cary Huffman (Eds.), Handbook of Coding Theory, pp. 295-461, Elsevier, 1998.
+To learn more about Magma implementation, refer to "Searching for linear codes with large minimum distance" by Martin Grassl, published in the book "Discovering Mathematics with Magma" in 2006.
 
+For more information on the Brouwer-Zimmerman method, refer to the following papers: "Bounds on Linear Codes" by Andries E. Brouwer, published in the Handbook of Coding Theory in 1998; "Integral Hecke Modules, Integral Generalized Reed-Muller Codes, and Linear Codes" by K.-H. Zimmermann, published as Technical Report 3-96 by Technische Universität Hamburg-Harburg in 1996; and "Codierungstheorie: Konstruktionen und Anwendungen linearer Codes" by A. Betten, H. Fripertinger, A. Kerber, A. Wassermann, and K.-H. Zimmermann, published by Springer in 1998.
 
- K.-H. Zimmermann, Integral Hecke Modules, Integral Generalized Reed-Muller Codes, and Linear Codes, Tech. Rep. 3-96, Technische Universität Hamburg-Harburg, 1996.; 
- 
- 
- A. Betten, H. Fripertinger, A. Kerber, A. Wassermann, K.-H. Zimmermann, Codierungstheorie: Konstruktionen und Anwendungen linearer Codes, Berlin: Springer, 1998.
-
+This tool can be useful for estimating the code distance of LDPC codes using the Brouwer-Zimmerman method and Magma computer algebra software http://magma.maths.usyd.edu.au/magma/.
